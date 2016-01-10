@@ -1,6 +1,16 @@
-===RULES RE ACCEPTABLE CONTENT FOR agile PROJECT
+===RULES RE ACCEPTABLE CONTENT FOR agile PROJECT===
 
-**absolutely no WORD docs!**
+1) git branching model 
+
+WE USE FEATURE-BRANCH METHOD
+EACH TEAM MEMBER TO CREATE THEIR OWN LOCAL BRANCH
+PULL FROM REMOTE MASTER REGULARLY (checks for updates)
+MERGE IN YOUR CHANGES (and wait for administrator of remote MASTER repo to approve them)
+THEN RE-PULL FROM MASTER AND REPEAT WITH YOUR NEXT 'FEATURE'
+
+
+
+2) Items to include in this git repo
 
 MUST BE AUTOMATED ARTEFACTS ONLY:-
 
@@ -14,4 +24,6 @@ MUST BE AUTOMATED ARTEFACTS ONLY:-
 
  RPMS 
 
- JENKINS WORKSPACE JOBS (exported)?
+ JENKINS WORKSPACE JOBS (simply copy workspace directory from under $JENKINS_HOME)?
+
+**absolutely no WORD docs!**
