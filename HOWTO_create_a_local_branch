@@ -7,3 +7,6 @@
  git commit -m "file"
  git push [alias for remote repo] [branch local name]
  THEN WAIT FOR PULL REQUEST
+ 
+ dont forget to sync to the remote master regularly (to pickup other people's changes):-
+ git pull [alias for remote repo] [branch local name]
