@@ -1,7 +1,19 @@
- mkdir [branch local name e.g. your name]
- cd [branch local name]
+ CREATE AN O/S WORKING DIR FOR LOCAL GIT REPO:-
+ mkdir [working git dir name]
+ cd  [working git dir name]
  git init .
+ 
+ CREATE AN ALIAS FOR REMOTE REPO:-
  git remote add [alias for remote repo e.g. "agile"] [path to remote repository]
+ git remote -v
+ 
+ CREATE YOUR OWN GIT BRANCH:-
+ git branch [new branch name]
+ 
+ SWITCH TO YOUR GIT BRANCH:-
+ git checkout [new branch name]
+ 
+ TEST A FILE ADD ON LOCAL REPO AND PUSH TO REMOTE REPO:-
  touch file
  git add file
  git commit -m "file"
