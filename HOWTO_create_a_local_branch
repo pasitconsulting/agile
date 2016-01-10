@@ -1,9 +1,9 @@
- mkdir [branch local name]
+ mkdir [branch local name e.g. your name]
  cd [branch local name]
  git init .
- git remote add [your name] [path to remote repository]
+ git remote add [alias for remote repo e.g. "agile"] [path to remote repository]
  touch file
  git add file
  git commit -m "file"
- git push [remote repo] [local branch]
+ git push [alias for remote repo] [branch local name]
  THEN WAIT FOR PULL REQUEST
