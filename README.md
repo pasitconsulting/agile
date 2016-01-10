@@ -2,7 +2,7 @@
 
 1) git branching model 
 
-WE USE FEATURE-BRANCH METHOD
+WE USE FEATURE-BRANCH METHOD\n
 EACH TEAM MEMBER TO CREATE THEIR OWN LOCAL BRANCH
 PULL FROM REMOTE MASTER REGULARLY (checks for updates)
 MERGE IN YOUR CHANGES (and wait for administrator of remote MASTER repo to approve them)
