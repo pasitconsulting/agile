@@ -2,8 +2,8 @@
  cd [branch local name]
  git init .
  git remote add [your name] [path to remote repository]
- touch test
- git add test
- git commit -m "test"
+ touch file
+ git add file
+ git commit -m "file"
  git push [remote repo] [local branch]
  THEN WAIT FOR PULL REQUEST
